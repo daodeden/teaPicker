@@ -1,0 +1,68 @@
+.container {
+  height: 720px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  background-color: #d6e6d7;
+  opacity: 0.8;
+  background-image: radial-gradient(#444cf7 0.5px, #d6e6d7 0.5px);
+  background-size: 10px 10px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #51ac83;
+    border-color: #51ac83;
+}
+
+.container__select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-select__effect,
+.custom-select__fermentation {
+  margin-right: 33px;
+  margin-left: 57px;
+}
+
+.container__button {
+  padding: 2%;
+}
+
+.find {
+  width: 150px;
+}
+
+.offer {
+  padding-top: 5%;
+  width: 500px;
+  visibility: hidden;
+  display: flex;
+    align-items: center;
+}
+
+.offer img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.offer img:hover {
+  opacity: 0.3;
+}
+
+.left__arrow, .right__arrow {
+    margin: 50px;
+    cursor: pointer;
+    width: 180px;
+    color: black;
+}
